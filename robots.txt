@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shaurya1233.github.io/NOUMEN/sitemap.xml
