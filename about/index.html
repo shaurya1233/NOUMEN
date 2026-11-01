@@ -1,35 +1,724 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About Shaurya Mittal</title>
+  <title>About Shaurya Mittal — Student Developer & Digital Creator</title>
 
-  <meta name="description"
-    content="Official profile of Shaurya Mittal, student developer and AI-assisted digital creator.">
+  <meta name="description" content="Discover Shaurya Mittal, a student developer and AI-assisted digital creator building websites, digital experiences and creative technology projects.">
+  <meta name="author" content="Shaurya Mittal">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#100e0b">
 
-  <link rel="canonical"
-    href="https://shaurya1233.github.io/NOUMEN/about/">
+  <link rel="canonical" href="https://shaurya1233.github.io/NOUMEN/about/">
+  <link rel="icon" type="image/png" href="../favicon.png">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Shaurya Mittal — About">
+  <meta property="og:description" content="Student Developer · AI-Assisted Digital Creator · Creating since Class 8.">
+  <meta property="og:url" content="https://shaurya1233.github.io/NOUMEN/about/">
+  <meta property="og:image" content="https://shaurya1233.github.io/NOUMEN/pp.jpg">
+  <meta property="og:site_name" content="NOUMEN — Shaurya Mittal">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About Shaurya Mittal">
+  <meta name="twitter:description" content="Student Developer · AI-Assisted Digital Creator.">
+  <meta name="twitter:image" content="https://shaurya1233.github.io/NOUMEN/pp.jpg">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "name": "About Shaurya Mittal",
+    "url": "https://shaurya1233.github.io/NOUMEN/about/",
+    "description": "The official about page of Shaurya Mittal, a student developer and AI-assisted digital creator.",
+    "mainEntity": {
+      "@type": "Person",
+      "@id": "https://shaurya1233.github.io/NOUMEN/#person",
+      "name": "Shaurya Mittal",
+      "url": "https://shaurya1233.github.io/NOUMEN/",
+      "image": "https://shaurya1233.github.io/NOUMEN/pp.jpg",
+      "jobTitle": "Student Developer and Digital Creator",
+      "description": "A student developer interested in web development, interface design, creative technology and artificial intelligence.",
+      "knowsAbout": [
+        "Web Development",
+        "HTML5",
+        "Website Design",
+        "User Interface Design",
+        "Creative Technology",
+        "Artificial Intelligence",
+        "Digital Product Development"
+      ],
+      "sameAs": [
+        "https://github.com/shaurya1233"
+      ]
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #100e0b;
+      --panel: #17140f;
+      --panel2: #1e1912;
+      --gold: #c6a36b;
+      --gold-light: #e3c795;
+      --white: #eee9df;
+      --muted: #a49a89;
+      --line: rgba(198,163,107,.2);
+      --serif: Georgia, "Times New Roman", serif;
+      --mono: "Courier New", monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background:
+        radial-gradient(ellipse at 75% 5%, rgba(145,103,45,.13), transparent 36%),
+        radial-gradient(ellipse at 5% 65%, rgba(120,78,34,.08), transparent 30%),
+        var(--bg);
+      color: var(--white);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .grain {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 5;
+      opacity: .08;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E");
+    }
+
+    .container {
+      width: min(1160px, calc(100% - 44px));
+      margin: auto;
+    }
+
+    .topbar {
+      border-bottom: 1px solid var(--line);
+      padding: 19px 0;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      font-family: var(--serif);
+      letter-spacing: 3px;
+      font-size: 19px;
+      color: var(--gold-light);
+    }
+
+    .nav a {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--muted);
+      transition: color .2s;
+    }
+
+    .nav a:hover {
+      color: var(--gold-light);
+    }
+
+    .hero {
+      min-height: 680px;
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      align-items: center;
+      gap: 65px;
+      padding-top: 85px;
+      padding-bottom: 100px;
+    }
+
+    .eyebrow {
+      color: var(--gold);
+      font-family: var(--mono);
+      letter-spacing: 3px;
+      font-size: 11px;
+      text-transform: uppercase;
+      margin-bottom: 27px;
+    }
+
+    h1 {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: clamp(49px, 7vw, 88px);
+      line-height: 1.02;
+      letter-spacing: -3px;
+      margin-bottom: 25px;
+    }
+
+    h1 span {
+      color: var(--gold-light);
+      font-style: italic;
+    }
+
+    .hero-description {
+      max-width: 570px;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.95;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 35px;
+    }
+
+    .button {
+      display: inline-block;
+      border: 1px solid var(--gold);
+      padding: 13px 21px;
+      color: var(--gold-light);
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      transition: .25s;
+    }
+
+    .button:hover {
+      background: var(--gold);
+      color: #17120c;
+    }
+
+    .button.secondary {
+      border-color: var(--line);
+      color: var(--white);
+    }
+
+    .portrait-frame {
+      position: relative;
+      max-width: 400px;
+      width: 100%;
+      justify-self: end;
+      padding: 12px;
+      border: 1px solid var(--line);
+    }
+
+    .portrait-frame::before {
+      content: "";
+      position: absolute;
+      inset: -13px 13px 13px -13px;
+      border: 1px solid rgba(198,163,107,.22);
+      pointer-events: none;
+    }
+
+    .portrait {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      object-position: center;
+      filter: saturate(.76) contrast(1.04);
+      background: var(--panel2);
+    }
+
+    .portrait-caption {
+      padding: 16px 5px 5px;
+      font-family: var(--mono);
+      color: var(--gold);
+      font-size: 10px;
+      letter-spacing: 2px;
+    }
+
+    .section {
+      padding: 95px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .section-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 20px;
+      margin-bottom: 43px;
+    }
+
+    .section-heading h2 {
+      font-family: var(--serif);
+      font-size: clamp(34px, 5vw, 54px);
+      font-weight: 400;
+      line-height: 1.15;
+    }
+
+    .section-number {
+      color: var(--gold);
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 2px;
+    }
+
+    .story-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 65px;
+    }
+
+    .story-grid p {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 2;
+      margin-bottom: 20px;
+    }
+
+    .story-grid strong {
+      color: var(--gold-light);
+      font-weight: 500;
+    }
+
+    .quote {
+      border-left: 2px solid var(--gold);
+      padding: 18px 25px;
+      background: rgba(198,163,107,.045);
+      color: var(--gold-light);
+      font-family: var(--serif);
+      font-size: 24px;
+      line-height: 1.5;
+    }
+
+    .principles {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border: 1px solid var(--line);
+    }
+
+    .principle {
+      padding: 30px;
+      min-height: 180px;
+    }
+
+    .principle + .principle {
+      border-left: 1px solid var(--line);
+    }
+
+    .principle small {
+      font-family: var(--mono);
+      color: var(--gold);
+      letter-spacing: 2px;
+    }
+
+    .principle h3 {
+      font-family: var(--serif);
+      font-size: 25px;
+      font-weight: 400;
+      margin: 17px 0 10px;
+    }
+
+    .principle p {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.8;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+
+    .project {
+      min-height: 190px;
+      padding: 30px;
+      background: linear-gradient(135deg, var(--panel2), var(--panel));
+      border: 1px solid var(--line);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: border-color .25s, transform .25s;
+    }
+
+    .project:hover {
+      border-color: var(--gold);
+      transform: translateY(-3px);
+    }
+
+    .project small {
+      font-family: var(--mono);
+      color: var(--gold);
+      letter-spacing: 2px;
+      font-size: 10px;
+    }
+
+    .project h3 {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: 30px;
+      margin: 15px 0 7px;
+    }
+
+    .project p {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .project .arrow {
+      color: var(--gold-light);
+      font-size: 20px;
+      align-self: flex-end;
+    }
+
+    .capabilities {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .capabilities span {
+      border: 1px solid var(--line);
+      color: var(--muted);
+      padding: 11px 15px;
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+
+    .closing {
+      text-align: center;
+      padding: 105px 20px;
+      border-top: 1px solid var(--line);
+      background: radial-gradient(ellipse at center, rgba(160,112,49,.11), transparent 65%);
+    }
+
+    .closing h2 {
+      font-family: var(--serif);
+      font-size: clamp(38px, 6vw, 66px);
+      font-weight: 400;
+      margin-bottom: 18px;
+    }
+
+    .closing p {
+      color: var(--muted);
+      margin-bottom: 30px;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 25px 0;
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 1px;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 760px) {
+      .hero {
+        grid-template-columns: 1fr;
+        padding-top: 65px;
+        gap: 50px;
+      }
+
+      .portrait-frame {
+        justify-self: center;
+        max-width: 340px;
+      }
+
+      .story-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+
+      .principles {
+        grid-template-columns: 1fr;
+      }
+
+      .principle + .principle {
+        border-left: 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .projects {
+        grid-template-columns: 1fr;
+      }
+
+      .section {
+        padding: 70px 0;
+      }
+
+      h1 {
+        letter-spacing: -2px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *, *::before, *::after {
+        transition-duration: .01ms !important;
+      }
+    }
+  </style>
 </head>
+
 <body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="../">NOUMEN</a>
+      <a href="../">← Return to Portfolio</a>
+    </div>
+  </header>
+
   <main>
-    <h1>Shaurya Mittal</h1>
-    <p>Student Developer · AI-Assisted Digital Creator</p>
+    <section class="container hero">
+      <div>
+        <div class="eyebrow">A PERSONAL PROFILE · 001</div>
 
-    <h2>About</h2>
-    <p>
-      I am a student developer interested in web development,
-      creative technology, interface design and artificial
-      intelligence.
-    </p>
+        <h1>
+          Shaurya<br>
+          <span>Mittal.</span>
+        </h1>
 
-    <h2>Selected Projects</h2>
-    <p>NOUMEN · Mittal Reserve · AUREX</p>
+        <p class="hero-description">
+          Student Developer. AI-Assisted Digital Creator.
+          Exploring the intersection of web development,
+          thoughtful design and creative technology.
+          Creating since Class 8.
+        </p>
 
-    <p>
-      <a href="../">Visit my official portfolio</a>
-    </p>
+        <div class="hero-actions">
+          <a class="button" href="../">Explore My Portfolio</a>
+          <a class="button secondary" href="#story">Discover My Story</a>
+        </div>
+      </div>
+
+      <div class="portrait-frame">
+        <img
+          class="portrait"
+          src="../pp.jpg"
+          alt="Portrait of Shaurya Mittal"
+          width="800"
+          height="1000"
+          fetchpriority="high"
+        >
+        <div class="portrait-caption">
+          SHAURYA MITTAL / DIGITAL CREATOR
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="story">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">01 / THE PERSON</div>
+            <h2>Beyond the screen.</h2>
+          </div>
+          <div class="section-number">PROFILE — 2026</div>
+        </div>
+
+        <div class="story-grid">
+          <div>
+            <p>
+              I am <strong>Shaurya Mittal</strong>, a student developer
+              and digital creator with an interest in building
+              meaningful experiences through technology.
+            </p>
+
+            <p>
+              My journey began with curiosity about how websites
+              work. That curiosity gradually developed into an
+              interest in creating websites, interfaces, digital
+              tools and independent projects.
+            </p>
+
+            <p>
+              I explore AI-assisted development as a way to
+              research ideas, accelerate experimentation and
+              bring concepts into reality while continuing to
+              develop my understanding of technology.
+            </p>
+          </div>
+
+          <div>
+            <p>
+              My creative interests include <strong>web development,
+              interface design, artificial intelligence and
+              digital product experiences.</strong>
+            </p>
+
+            <p>
+              I value experimentation, independent learning,
+              functional design and the process of improving
+              an idea through repeated refinement.
+            </p>
+
+            <div class="quote">
+              "Curiosity creates the first idea.
+              Discipline gives it form."
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">02 / CREATIVE PHILOSOPHY</div>
+            <h2>How I approach creation.</h2>
+          </div>
+        </div>
+
+        <div class="principles">
+          <article class="principle">
+            <small>01 — CURIOSITY</small>
+            <h3>Explore</h3>
+            <p>
+              Learn how technology works, investigate new ideas
+              and approach unfamiliar problems with curiosity.
+            </p>
+          </article>
+
+          <article class="principle">
+            <small>02 — EXPERIMENTATION</small>
+            <h3>Build</h3>
+            <p>
+              Turn concepts into working digital experiences
+              through research, experimentation and iteration.
+            </p>
+          </article>
+
+          <article class="principle">
+            <small>03 — REFINEMENT</small>
+            <h3>Improve</h3>
+            <p>
+              Pay attention to usability, performance, detail
+              and the quality of the final experience.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">03 / SELECTED WORK</div>
+            <h2>A growing digital archive.</h2>
+          </div>
+          <div class="section-number">INDEPENDENT PROJECTS</div>
+        </div>
+
+        <div class="projects">
+          <a class="project" href="../">
+            <div>
+              <small>PERSONAL PORTFOLIO</small>
+              <h3>NOUMEN</h3>
+              <p>A central archive of digital experiments and creative projects.</p>
+            </div>
+            <span class="arrow">↗</span>
+          </a>
+
+          <a class="project" href="https://mittal-reserve.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <div>
+              <small>DIGITAL BRAND EXPERIENCE</small>
+              <h3>Mittal Reserve</h3>
+              <p>An independent exploration of luxury-inspired digital presentation.</p>
+            </div>
+            <span class="arrow">↗</span>
+          </a>
+
+          <a class="project" href="https://shaurya1233.github.io/AUREX-MITTAL-CALCULATOR/" target="_blank" rel="noopener noreferrer">
+            <div>
+              <small>DIGITAL TOOL</small>
+              <h3>AUREX</h3>
+              <p>A calculator project focused on practical digital utility.</p>
+            </div>
+            <span class="arrow">↗</span>
+          </a>
+
+          <a class="project" href="https://obsidian-developers.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <div>
+              <small>CREATIVE WEB STUDIO</small>
+              <h3>Obsidian Developers</h3>
+              <p>An independent web-design and digital creation initiative.</p>
+            </div>
+            <span class="arrow">↗</span>
+          </a>
+        </div>
+
+        <p style="color:var(--muted);font-size:12px;margin-top:20px">
+          Project descriptions are brief summaries. Explore the linked
+          projects for their individual details.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">04 / AREAS OF INTEREST</div>
+            <h2>Technology & craft.</h2>
+          </div>
+        </div>
+
+        <div class="capabilities">
+          <span>HTML5</span>
+          <span>Web Development</span>
+          <span>Website Design</span>
+          <span>Interface Design</span>
+          <span>AI-Assisted Development</span>
+          <span>Creative Technology</span>
+          <span>Digital Experiences</span>
+          <span>Independent Projects</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="eyebrow">THE NEXT CHAPTER</div>
+      <h2>Ideas into experiences.</h2>
+      <p>
+        Explore the projects, experiments and work collected
+        in my digital portfolio.
+      </p>
+      <a class="button" href="../">Enter NOUMEN ↗</a>
+    </section>
   </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2026 SHAURYA MITTAL</span>
+      <span>STUDENT DEVELOPER · DIGITAL CREATOR</span>
+      <a href="../">NOUMEN — OFFICIAL PORTFOLIO ↗</a>
+    </div>
+  </footer>
 </body>
 </html>
