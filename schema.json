@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/shaurya1233/shaurya1233/schema.json",
+  "title": "Shaurya Mittal Developer Profile",
+  "description": "Validation schema for the structured developer profile stored in data.json.",
+  "type": "object",
+
+  "required": [
+    "metadata",
+    "identity",
+    "biography",
+    "interests",
+    "technical_environment",
+    "projects",
+    "social_presence",
+    "development_principles",
+    "objectives",
+    "contact"
+  ],
+
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "last_updated": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "document_type": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+
+    "identity": {
+      "type": "object",
+      "required": [
+        "full_name",
+        "username"
+      ],
+      "properties": {
+        "full_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "username": {
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9-]+$"
+        },
+        "professional_title": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "github": {
+          "type": "string"
+        },
+        "portfolio": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+
+    "biography": {
+      "type": ["string", "object"]
+    },
+
+    "interests": {
+      "type": ["array", "object"]
+    },
+
+    "technical_environment": {
+      "type": ["object", "array"]
+    },
+
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "repository": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "technologies": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+
+    "social_presence": {
+      "type": ["object", "array"]
+    },
+
+    "development_principles": {
+      "type": ["array", "object"]
+    },
+
+    "objectives": {
+      "type": ["array", "object"]
+    },
+
+    "repository_files": {
+      "type": ["array", "object"]
+    },
+
+    "contact": {
+      "type": ["object", "array"]
+    }
+  },
+
+  "additionalProperties": true
+}
