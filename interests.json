@@ -1,0 +1,451 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "record_type": "personal_interest_profile",
+  "schema_version": "1.0.0",
+  "last_updated": "2026-11-02",
+
+  "identity": {
+    "name": "Shaurya Mittal",
+    "username": "shaurya1233",
+    "professional_title": "Student Developer · AI-Assisted Digital Creator",
+    "website": "https://shaurya1233.github.io/NOUMEN/",
+    "github": "https://github.com/shaurya1233"
+  },
+
+  "overview": {
+    "title": "Technology, Development and Creative Exploration",
+    "summary": "A structured overview of Shaurya Mittal's interests in web development, software engineering, artificial intelligence, digital product creation, interface design and entrepreneurship.",
+    "primary_focus": [
+      "Web Development",
+      "Software Development",
+      "Artificial Intelligence",
+      "Digital Product Creation"
+    ],
+    "approach": "Explore concepts, develop practical projects, experiment with technologies and continuously improve technical understanding.",
+    "profile_type": "Personal Interest and Exploration Profile"
+  },
+
+  "core_interests": [
+    {
+      "id": "web-development",
+      "name": "Web Development",
+      "category": "Technology",
+      "priority": "Primary",
+      "description": "Exploring the creation of websites and browser-based experiences through modern web technologies.",
+      "topics": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Responsive Web Design",
+        "Interactive Websites",
+        "Semantic HTML",
+        "Website Architecture",
+        "Frontend Development",
+        "Web Performance",
+        "Accessibility"
+      ],
+      "practical_direction": "Building responsive, functional and visually thoughtful websites."
+    },
+    {
+      "id": "software-development",
+      "name": "Software Development",
+      "category": "Engineering",
+      "priority": "Primary",
+      "description": "Understanding how software applications are planned, developed, tested and improved.",
+      "topics": [
+        "Programming Fundamentals",
+        "Application Development",
+        "Software Architecture",
+        "Problem Solving",
+        "Debugging",
+        "Code Organization",
+        "Application Logic",
+        "Software Testing",
+        "Development Workflows"
+      ],
+      "practical_direction": "Developing useful software projects and strengthening programming fundamentals."
+    },
+    {
+      "id": "artificial-intelligence",
+      "name": "Artificial Intelligence",
+      "category": "Emerging Technology",
+      "priority": "Primary",
+      "description": "Exploring artificial intelligence, AI-assisted development and the possibilities of intelligent software.",
+      "topics": [
+        "Generative AI",
+        "AI-Assisted Coding",
+        "Large Language Models",
+        "AI Tools",
+        "Prompt Engineering",
+        "AI Applications",
+        "Intelligent Automation",
+        "AI Product Development",
+        "Human-AI Collaboration"
+      ],
+      "practical_direction": "Using AI thoughtfully to support research, learning, experimentation and software creation."
+    },
+    {
+      "id": "digital-product-creation",
+      "name": "Digital Product Creation",
+      "category": "Innovation",
+      "priority": "Primary",
+      "description": "Transforming ideas into functional digital products, online services and independent projects.",
+      "topics": [
+        "Product Concepts",
+        "Digital Experiences",
+        "Web Applications",
+        "Product Planning",
+        "Feature Development",
+        "Prototyping",
+        "Product Improvement",
+        "Digital Innovation"
+      ],
+      "practical_direction": "Turning creative concepts into practical digital experiences."
+    }
+  ],
+
+  "technology_interests": {
+    "frontend_engineering": {
+      "name": "Frontend Engineering",
+      "topics": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "TypeScript",
+        "DOM Manipulation",
+        "Responsive Layouts",
+        "Browser Compatibility",
+        "Web Animations",
+        "Interactive Interfaces"
+      ]
+    },
+
+    "backend_engineering": {
+      "name": "Backend Engineering",
+      "topics": [
+        "Server-Side Programming",
+        "APIs",
+        "HTTP Fundamentals",
+        "Database Concepts",
+        "Authentication Concepts",
+        "Application Architecture"
+      ]
+    },
+
+    "programming_languages": {
+      "name": "Programming Languages",
+      "languages_of_interest": [
+        "JavaScript",
+        "Python",
+        "TypeScript",
+        "SQL"
+      ],
+      "data_and_markup_formats": [
+        "HTML",
+        "CSS",
+        "JSON",
+        "XML",
+        "Markdown",
+        "YAML"
+      ]
+    },
+
+    "web_infrastructure": {
+      "name": "Web Infrastructure",
+      "topics": [
+        "Domain Names",
+        "DNS Fundamentals",
+        "Web Hosting",
+        "Website Deployment",
+        "Version Control",
+        "Content Delivery Networks",
+        "Web Security Fundamentals",
+        "Search Engine Crawling",
+        "Website Indexing"
+      ]
+    },
+
+    "performance_and_quality": {
+      "name": "Performance and Quality",
+      "topics": [
+        "Website Optimization",
+        "Loading Performance",
+        "Code Efficiency",
+        "Responsive Design",
+        "Accessibility",
+        "Browser Testing",
+        "Maintainability",
+        "Progressive Enhancement"
+      ]
+    }
+  },
+
+  "creative_interests": {
+    "interface_design": {
+      "name": "User Interface Design",
+      "topics": [
+        "Visual Hierarchy",
+        "Typography",
+        "Layout Systems",
+        "Design Consistency",
+        "Navigation Design",
+        "Component Design",
+        "Responsive Interfaces"
+      ]
+    },
+
+    "user_experience": {
+      "name": "User Experience Design",
+      "topics": [
+        "Usability",
+        "Information Architecture",
+        "Interaction Design",
+        "Accessibility",
+        "User Journeys",
+        "Interface Clarity"
+      ]
+    },
+
+    "visual_direction": {
+      "name": "Visual Design and Art Direction",
+      "topics": [
+        "Luxury Editorial Design",
+        "Heritage-Inspired Design",
+        "Minimalist Interfaces",
+        "Digital Branding",
+        "Visual Storytelling",
+        "Typography Systems",
+        "Colour Theory",
+        "Motion Design"
+      ]
+    },
+
+    "interactive_experiences": {
+      "name": "Interactive Digital Experiences",
+      "topics": [
+        "Browser-Based Applications",
+        "Interactive Animations",
+        "Canvas Experiments",
+        "WebGL Exploration",
+        "Interactive Storytelling",
+        "Motion and Transitions"
+      ]
+    }
+  },
+
+  "business_and_entrepreneurship": {
+    "name": "Technology Entrepreneurship",
+    "priority": "Exploration",
+    "description": "Understanding how technology, creativity and business ideas can combine to create useful products and services.",
+    "topics": [
+      "Entrepreneurship",
+      "Digital Businesses",
+      "Product Strategy",
+      "Business Models",
+      "Brand Development",
+      "Digital Marketing",
+      "Customer Experience",
+      "Website Services",
+      "Independent Projects",
+      "Innovation",
+      "Business Development"
+    ],
+    "areas_of_exploration": [
+      "Building Digital Products",
+      "Website Creation Services",
+      "Online Business Concepts",
+      "Technology-Based Ventures",
+      "Digital Brand Development"
+    ],
+    "long_term_direction": "Explore sustainable technology ventures by combining practical development skills, product thinking and business understanding."
+  },
+
+  "artificial_intelligence_exploration": {
+    "name": "AI and Emerging Technologies",
+    "topics": [
+      "Generative Artificial Intelligence",
+      "AI-Assisted Software Development",
+      "Prompt Design",
+      "AI Research Tools",
+      "Intelligent Applications",
+      "Automation Concepts",
+      "AI Agents",
+      "Human-AI Interaction",
+      "Responsible AI"
+    ],
+    "principles": [
+      "Verify AI-generated information.",
+      "Understand the code being implemented.",
+      "Use AI as an assistant rather than a replacement for learning.",
+      "Prioritize functionality and reliability.",
+      "Consider privacy, safety and responsible use."
+    ]
+  },
+
+  "learning_interests": {
+    "name": "Continuous Learning",
+    "areas": [
+      {
+        "subject": "Computer Science",
+        "topics": [
+          "Programming Logic",
+          "Data Structures",
+          "Algorithms",
+          "Computer Fundamentals",
+          "Computational Thinking"
+        ]
+      },
+      {
+        "subject": "Mathematics",
+        "topics": [
+          "Logical Reasoning",
+          "Applied Mathematics",
+          "Problem Solving",
+          "Mathematical Foundations of Computing"
+        ]
+      },
+      {
+        "subject": "Business",
+        "topics": [
+          "Economics",
+          "Entrepreneurship",
+          "Business Strategy",
+          "Financial Literacy",
+          "Management"
+        ]
+      },
+      {
+        "subject": "Communication",
+        "topics": [
+          "Technical Writing",
+          "Documentation",
+          "Presentation",
+          "Professional Communication"
+        ]
+      }
+    ]
+  },
+
+  "development_tools_and_platforms": [
+    {
+      "name": "GitHub",
+      "category": "Version Control",
+      "url": "https://github.com/"
+    },
+    {
+      "name": "GitHub Pages",
+      "category": "Website Hosting",
+      "url": "https://pages.github.com/"
+    },
+    {
+      "name": "Vercel",
+      "category": "Deployment",
+      "url": "https://vercel.com/"
+    },
+    {
+      "name": "CodePen",
+      "category": "Frontend Experimentation",
+      "url": "https://codepen.io/"
+    },
+    {
+      "name": "LeetCode",
+      "category": "Programming Practice",
+      "url": "https://leetcode.com/"
+    }
+  ],
+
+  "project_based_interests": [
+    {
+      "name": "Personal Portfolio Development",
+      "related_project": "NOUMEN",
+      "url": "https://shaurya1233.github.io/NOUMEN/"
+    },
+    {
+      "name": "Premium Digital Experiences",
+      "related_project": "Mittal Reserve",
+      "url": "https://mittal-reserve.vercel.app/"
+    },
+    {
+      "name": "Browser-Based Utility Applications",
+      "related_project": "AUREX Calculator",
+      "url": "https://shaurya1233.github.io/AUREX-MITTAL-CALCULATOR/"
+    },
+    {
+      "name": "Digital Studio Development",
+      "related_project": "Obsidian Developers",
+      "url": "https://obsidian-developers.vercel.app/"
+    }
+  ],
+
+  "future_exploration": {
+    "description": "Areas that may be explored through future learning and projects.",
+    "areas": [
+      "Full-Stack Development",
+      "Advanced JavaScript",
+      "Python Programming",
+      "Artificial Intelligence Engineering",
+      "Machine Learning Fundamentals",
+      "Cloud Computing",
+      "Cybersecurity Fundamentals",
+      "Database Engineering",
+      "Mobile Application Development",
+      "Software Architecture",
+      "Product Management",
+      "Technology Entrepreneurship"
+    ],
+    "status": "Future learning interests, not claims of current expertise."
+  },
+
+  "personal_working_principles": [
+    {
+      "principle": "Curiosity",
+      "description": "Remain interested in discovering how technologies work."
+    },
+    {
+      "principle": "Experimentation",
+      "description": "Explore ideas through practical projects and technical experiments."
+    },
+    {
+      "principle": "Functionality",
+      "description": "Give priority to working features and reliable implementation."
+    },
+    {
+      "principle": "Creativity",
+      "description": "Approach problems with imagination and independent thinking."
+    },
+    {
+      "principle": "Responsibility",
+      "description": "Represent technical capabilities and project achievements accurately."
+    },
+    {
+      "principle": "Consistency",
+      "description": "Improve through continuous learning and deliberate practice."
+    }
+  ],
+
+  "long_term_vision": {
+    "statement": "Develop strong technical foundations, create meaningful digital products and explore opportunities at the intersection of software, artificial intelligence, creativity and entrepreneurship.",
+    "objectives": [
+      "Become stronger in programming fundamentals.",
+      "Build more capable software applications.",
+      "Understand full-stack development.",
+      "Explore practical applications of artificial intelligence.",
+      "Develop product-building capabilities.",
+      "Improve design and user experience skills.",
+      "Understand technology entrepreneurship."
+    ]
+  },
+
+  "profile_metadata": {
+    "document_name": "interests.json",
+    "document_type": "Personal Interests and Technology Exploration",
+    "owner": "Shaurya Mittal",
+    "username": "shaurya1233",
+    "language": "English",
+    "format": "JSON",
+    "visibility": "Public",
+    "version": "1.0.0",
+    "website": "https://shaurya1233.github.io/NOUMEN/",
+    "github": "https://github.com/shaurya1233"
+  }
+}
