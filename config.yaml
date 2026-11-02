@@ -1,0 +1,130 @@
+# ============================================================
+# SHAURYA MITTAL
+# DEVELOPER PROFILE CONFIGURATION
+# File: config.yaml
+# Format: YAML
+# ============================================================
+
+metadata:
+  version: "1.0.0"
+  project_name: "Shaurya Mittal Developer Profile"
+  repository: "shaurya1233"
+  owner: "Shaurya Mittal"
+  username: "shaurya1233"
+  last_updated: "2026-11-02"
+  document_type: "Developer Profile Configuration"
+
+identity:
+  name: "Shaurya Mittal"
+  professional_title: "Student Developer · AI-Assisted Digital Creator"
+  location: "Lucknow, India"
+  github: "https://github.com/shaurya1233"
+  portfolio: "https://shaurya1233.github.io/NOUMEN/"
+
+repository:
+  visibility: "public"
+  default_branch: "main"
+  documentation: "README.md"
+  profile_data: "data.json"
+  profile_schema: "schema.json"
+
+  directories:
+    source: "src/"
+    tests: "tests/"
+    documentation: "docs/"
+    assets: "assets/"
+
+technologies:
+  primary:
+    - HTML
+    - CSS
+    - JavaScript
+
+  additional:
+    - TypeScript
+    - Python
+    - SQL
+    - YAML
+    - JSON
+
+  platforms:
+    - GitHub
+    - GitHub Pages
+    - Vercel
+
+development:
+  approach: "AI-assisted development"
+  priorities:
+    - "Clean and maintainable code"
+    - "Responsive interfaces"
+    - "Accessibility"
+    - "Performance"
+    - "Security"
+    - "Reliable functionality"
+    - "Clear documentation"
+
+projects:
+  - name: "NOUMEN"
+    url: "https://shaurya1233.github.io/NOUMEN/"
+    category: "Personal Portfolio"
+
+  - name: "Mittal Reserve"
+    url: "https://mittal-reserve.vercel.app/"
+    category: "Web Development"
+
+  - name: "AUREX"
+    url: "https://shaurya1233.github.io/AUREX-MITTAL-CALCULATOR/"
+    category: "Web Application"
+
+  - name: "Obsidian Developers"
+    url: "https://obsidian-developers.vercel.app/"
+    category: "Digital Development"
+
+  - name: "Windows 11 SHAURYA OS"
+    url: "https://shaurya1233.github.io/WINDOWS-11-Ultimate/"
+    category: "Web Experience"
+
+api:
+  framework: "Flask"
+  host: "127.0.0.1"
+  port: 5000
+  debug: false
+
+  endpoints:
+    health: "/api/health"
+    profile: "/api/profile"
+    projects: "/api/projects"
+    interests: "/api/interests"
+    social_links: "/api/social-links"
+    search: "/api/search"
+
+database:
+  engine: "SQLite"
+  schema_file: "query.sql"
+  foreign_keys: true
+
+validation:
+  data_file: "data.json"
+  schema_file: "schema.json"
+  standard: "JSON Schema 2020-12"
+
+documentation:
+  readme: "README.md"
+  biography: "biography.md"
+  changelog: "CHANGELOG.md"
+  citation: "CITATION.cff"
+
+privacy:
+  expose_private_contact: false
+  expose_private_credentials: false
+  expose_secrets_in_repository: false
+
+maintenance:
+  check_json_validity: true
+  check_api_tests: true
+  review_external_links: true
+  update_changelog: true
+
+# ============================================================
+# END OF CONFIGURATION
+# ============================================================
