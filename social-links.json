@@ -1,0 +1,189 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "record_type": "social_identity_directory",
+  "schema_version": "1.0.0",
+  "last_updated": "2026-11-02",
+
+  "identity": {
+    "full_name": "Shaurya Mittal",
+    "username": "shaurya1233",
+    "professional_title": "Student Developer · AI-Assisted Digital Creator",
+    "primary_website": "https://shaurya1233.github.io/NOUMEN/"
+  },
+
+  "directory": {
+    "description": "Official public social, professional, development, and communication profiles associated with Shaurya Mittal.",
+    "total_platforms": 8,
+    "categories": [
+      "Professional Networking",
+      "Software Development",
+      "Coding and Programming",
+      "Social Networking",
+      "Developer Community",
+      "Communication"
+    ]
+  },
+
+  "professional_networks": {
+    "linkedin": {
+      "platform": "LinkedIn",
+      "category": "Professional Networking",
+      "profile_url": "https://www.linkedin.com/checkpoint/challengesV2/AQEztCuZUDQ7UwAAAaFcV140DPOkIO4I-1K-WlcDILKgvJ1VhPESUkQAsBMc9UP9yYLBvXSIBp-IQyZ3o_3o9eJ6fhS0aKu5mA?ut=3mZjExIiW3TIs1",
+      "profile_type": "Personal Professional Profile",
+      "status": "Provided",
+      "description": "Professional networking presence for sharing development interests, professional updates, and technology-related activities."
+    }
+  },
+
+  "development_platforms": {
+    "github": {
+      "platform": "GitHub",
+      "category": "Software Development",
+      "username": "shaurya1233",
+      "profile_url": "https://github.com/shaurya1233",
+      "profile_type": "Developer Profile",
+      "status": "Provided",
+      "description": "Primary developer profile for repositories, software projects, source code, and open-source activity."
+    },
+
+    "leetcode": {
+      "platform": "LeetCode",
+      "category": "Coding and Programming",
+      "username": "Qlk0uRwuTh",
+      "profile_url": "https://leetcode.com/u/Qlk0uRwuTh/",
+      "profile_type": "Programming Profile",
+      "status": "Provided",
+      "description": "Programming practice and algorithmic problem-solving profile."
+    },
+
+    "codepen": {
+      "platform": "CodePen",
+      "category": "Frontend Development",
+      "username": "SHAURYA-MITTAL-the-bashful",
+      "profile_url": "https://codepen.io/SHAURYA-MITTAL-the-bashful",
+      "profile_type": "Frontend Experimentation Profile",
+      "status": "Provided",
+      "description": "Platform for presenting and experimenting with browser-based HTML, CSS, and JavaScript creations."
+    }
+  },
+
+  "social_networks": {
+    "instagram": {
+      "platform": "Instagram",
+      "category": "Social Networking",
+      "username": "shaurya_mittal31",
+      "profile_url": "https://www.instagram.com/shaurya_mittal31/",
+      "profile_type": "Personal Social Profile",
+      "status": "Provided",
+      "description": "Social presence for personal updates and shared content."
+    },
+
+    "mastodon": {
+      "platform": "Mastodon",
+      "category": "Decentralized Social Networking",
+      "username": "shaurya_dev",
+      "profile_url": "https://mastodon.social/@shaurya_dev",
+      "instance": "mastodon.social",
+      "profile_type": "Social Profile",
+      "status": "Provided",
+      "description": "Decentralized social networking profile."
+    },
+
+    "bluesky": {
+      "platform": "Bluesky",
+      "category": "Social Networking",
+      "handle": "mittalshaurya66-06.bsky.social",
+      "profile_url": "https://bsky.app/profile/mittalshaurya66-06.bsky.social",
+      "profile_type": "Social Profile",
+      "status": "Provided",
+      "description": "Social networking presence on the Bluesky platform."
+    }
+  },
+
+  "communication": {
+    "email": {
+      "platform": "Gmail",
+      "provider": "Google",
+      "category": "Email Communication",
+      "email_address": "mittalshaurya66@gmail.com",
+      "contact_type": "Email",
+      "status": "Provided",
+      "public_contact": true,
+      "description": "Email address supplied for direct communication."
+    }
+  },
+
+  "platform_index": [
+    {
+      "id": "github",
+      "name": "GitHub",
+      "category": "Development",
+      "url": "https://github.com/shaurya1233"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "category": "Professional",
+      "url": "https://www.linkedin.com/checkpoint/challengesV2/AQEztCuZUDQ7UwAAAaFcV140DPOkIO4I-1K-WlcDILKgvJ1VhPESUkQAsBMc9UP9yYLBvXSIBp-IQyZ3o_3o9eJ6fhS0aKu5mA?ut=3mZjExIiW3TIs1"
+    },
+    {
+      "id": "leetcode",
+      "name": "LeetCode",
+      "category": "Programming",
+      "url": "https://leetcode.com/u/Qlk0uRwuTh/"
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "category": "Social",
+      "url": "https://www.instagram.com/shaurya_mittal31/"
+    },
+    {
+      "id": "mastodon",
+      "name": "Mastodon",
+      "category": "Social",
+      "url": "https://mastodon.social/@shaurya_dev"
+    },
+    {
+      "id": "codepen",
+      "name": "CodePen",
+      "category": "Development",
+      "url": "https://codepen.io/SHAURYA-MITTAL-the-bashful"
+    },
+    {
+      "id": "bluesky",
+      "name": "Bluesky",
+      "category": "Social",
+      "url": "https://bsky.app/profile/mittalshaurya66-06.bsky.social"
+    },
+    {
+      "id": "gmail",
+      "name": "Gmail",
+      "category": "Communication",
+      "url": "mailto:mittalshaurya66@gmail.com"
+    }
+  ],
+
+  "contact_preferences": {
+    "primary_contact_method": "Email",
+    "email": "mittalshaurya66@gmail.com",
+    "telephone_publicly_listed": false
+  },
+
+  "identity_consistency": {
+    "primary_name": "Shaurya Mittal",
+    "primary_username": "shaurya1233",
+    "primary_website": "https://shaurya1233.github.io/NOUMEN/",
+    "primary_developer_platform": "GitHub",
+    "primary_professional_platform": "LinkedIn"
+  },
+
+  "metadata": {
+    "maintained_by": "Shaurya Mittal",
+    "document_type": "Public Social Links Directory",
+    "version": "1.0.0",
+    "language": "English",
+    "format": "JSON",
+    "visibility": "Public"
+  }
+}
