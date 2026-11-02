@@ -1,0 +1,20 @@
+# ============================================================
+# SHAURYA MITTAL | DEVELOPER PROFILE API
+# File: requirements.txt
+# Purpose: Python dependency management
+# ============================================================
+
+# Web framework
+Flask>=3.1,<4.0
+
+# YAML configuration support
+PyYAML>=6.0,<7.0
+
+# JSON Schema validation
+jsonschema>=4.23,<5.0
+
+# Automated testing
+pytest>=8.3,<10.0
+
+# Production WSGI server
+gunicorn>=23.0,<24.0
