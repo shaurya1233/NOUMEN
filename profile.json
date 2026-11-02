@@ -1,0 +1,233 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "record_type": "developer_profile",
+  "schema_version": "1.0.0",
+  "last_updated": "2026-11-02",
+
+  "identity": {
+    "full_name": "Shaurya Mittal",
+    "username": "shaurya1233",
+    "professional_title": "Student Developer · AI-Assisted Digital Creator",
+    "primary_role": "Student Developer",
+    "professional_identity": "Independent Digital Creator",
+    "location": {
+      "city": "Lucknow",
+      "region": "Uttar Pradesh",
+      "country": "India",
+      "country_code": "IN"
+    },
+    "website": "https://shaurya1233.github.io/NOUMEN/",
+    "github": "https://github.com/shaurya1233"
+  },
+
+  "professional_summary": {
+    "short": "Student developer exploring web technologies, software development, artificial intelligence and digital product creation.",
+    "long": "Shaurya Mittal is a student developer and AI-assisted digital creator interested in building websites, software experiences and digital products. His work explores the intersection of web development, interface design, creative technology and artificial intelligence. He focuses on transforming ideas into functional digital experiences through experimentation, independent projects and continuous learning.",
+    "philosophy": "Learn continuously. Build thoughtfully. Experiment boldly. Improve relentlessly.",
+    "approach": [
+      "Idea-driven development",
+      "Independent project creation",
+      "AI-assisted development workflows",
+      "Practical experimentation",
+      "Continuous technical learning",
+      "User-focused digital experiences"
+    ]
+  },
+
+  "areas_of_interest": [
+    {
+      "name": "Web Development",
+      "category": "Technology"
+    },
+    {
+      "name": "Software Development",
+      "category": "Technology"
+    },
+    {
+      "name": "Artificial Intelligence",
+      "category": "Emerging Technology"
+    },
+    {
+      "name": "Frontend Engineering",
+      "category": "Engineering"
+    },
+    {
+      "name": "User Interface Design",
+      "category": "Design"
+    },
+    {
+      "name": "Digital Product Creation",
+      "category": "Entrepreneurship"
+    },
+    {
+      "name": "Creative Technology",
+      "category": "Innovation"
+    }
+  ],
+
+  "technical_interests": {
+    "web": [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "programming": [
+      "JavaScript",
+      "Python",
+      "TypeScript"
+    ],
+    "data_formats": [
+      "JSON",
+      "XML"
+    ],
+    "database": [
+      "SQL"
+    ],
+    "development_practices": [
+      "Responsive Web Design",
+      "Semantic HTML",
+      "Accessibility",
+      "Performance Optimization",
+      "SEO Fundamentals",
+      "Version Control",
+      "Progressive Enhancement"
+    ]
+  },
+
+  "development_tools": [
+    {
+      "name": "GitHub",
+      "category": "Version Control and Collaboration",
+      "website": "https://github.com/"
+    },
+    {
+      "name": "GitHub Pages",
+      "category": "Static Website Hosting",
+      "website": "https://pages.github.com/"
+    },
+    {
+      "name": "Vercel",
+      "category": "Deployment Platform",
+      "website": "https://vercel.com/"
+    }
+  ],
+
+  "development_methodology": {
+    "workflow": [
+      "Concept Development",
+      "Research and Planning",
+      "Interface Exploration",
+      "AI-Assisted Implementation",
+      "Testing and Refinement",
+      "Deployment",
+      "Continuous Improvement"
+    ],
+    "principles": [
+      "Functionality over appearance alone",
+      "Performance-conscious implementation",
+      "Responsive design",
+      "Maintainable project structure",
+      "Honest representation of capabilities",
+      "Continuous experimentation"
+    ]
+  },
+
+  "projects": [
+    {
+      "id": "noumen",
+      "name": "NOUMEN",
+      "category": "Personal Portfolio",
+      "description": "Personal digital portfolio presenting development projects, creative work and professional identity.",
+      "url": "https://shaurya1233.github.io/NOUMEN/",
+      "repository": "https://github.com/shaurya1233/NOUMEN",
+      "status": "Published",
+      "featured": true
+    },
+    {
+      "id": "mittal-reserve",
+      "name": "Mittal Reserve",
+      "category": "Digital Experience",
+      "description": "A privately styled digital project exploring premium visual presentation and web experience design.",
+      "url": "https://mittal-reserve.vercel.app/",
+      "status": "Published",
+      "featured": true
+    },
+    {
+      "id": "aurex",
+      "name": "AUREX Calculator",
+      "category": "Web Application",
+      "description": "A calculator project focused on practical functionality and an integrated interface.",
+      "url": "https://shaurya1233.github.io/AUREX-MITTAL-CALCULATOR/",
+      "status": "Published",
+      "featured": true
+    },
+    {
+      "id": "obsidian-developers",
+      "name": "Obsidian Developers",
+      "category": "Digital Studio",
+      "description": "A digital studio concept focused on professional website creation and digital presentation.",
+      "url": "https://obsidian-developers.vercel.app/",
+      "status": "Published",
+      "featured": true
+    },
+    {
+      "id": "windows-11",
+      "name": "Windows 11 — SHAURYA OS",
+      "category": "Interactive Web Project",
+      "description": "An experimental browser-based desktop interface inspired by desktop operating system experiences.",
+      "url": "https://shaurya1233.github.io/WINDOWS-11-Ultimate/",
+      "status": "Published",
+      "featured": false
+    }
+  ],
+
+  "platforms": {
+    "github": {
+      "username": "shaurya1233",
+      "url": "https://github.com/shaurya1233"
+    },
+    "portfolio": {
+      "name": "NOUMEN",
+      "url": "https://shaurya1233.github.io/NOUMEN/"
+    }
+  },
+
+  "content_and_brand": {
+    "primary_brand": "Shaurya Mittal",
+    "portfolio_brand": "NOUMEN",
+    "professional_descriptor": "Student Developer · AI-Assisted Digital Creator",
+    "content_topics": [
+      "Technology",
+      "Web Development",
+      "Artificial Intelligence",
+      "Software",
+      "Digital Creation",
+      "Entrepreneurship"
+    ]
+  },
+
+  "objectives": [
+    "Strengthen software development fundamentals",
+    "Build practical and meaningful digital projects",
+    "Explore emerging technologies",
+    "Improve interface and experience design",
+    "Develop independent technical capabilities",
+    "Turn creative ideas into functional products"
+  ],
+
+  "public_links": {
+    "personal_website": "https://shaurya1233.github.io/NOUMEN/",
+    "github_profile": "https://github.com/shaurya1233",
+    "github_repositories": "https://github.com/shaurya1233?tab=repositories"
+  },
+
+  "metadata": {
+    "profile_type": "Personal Developer Profile",
+    "visibility": "Public",
+    "primary_language": "English",
+    "country": "India",
+    "record_owner": "Shaurya Mittal",
+    "maintained_by": "Shaurya Mittal",
+    "version": "1.0.0"
+  }
+}
