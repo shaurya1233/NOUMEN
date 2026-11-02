@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "node",
+
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    "declaration": true,
+    "sourceMap": true,
+
+    "outDir": "./dist",
+    "rootDir": "./",
+
+    "noEmitOnError": true,
+    "removeComments": false
+  },
+
+  "include": [
+    "example.ts",
+    "src/**/*.ts"
+  ],
+
+  "exclude": [
+    "node_modules",
+    "dist",
+    "tests"
+  ]
+}
