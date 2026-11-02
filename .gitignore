@@ -1,0 +1,132 @@
+# ============================================================
+# SHAURYA MITTAL | DEVELOPER PROFILE
+# File: .gitignore
+# Purpose: Exclude unnecessary and sensitive files from Git
+# ============================================================
+
+# ----------------------------
+# Python
+# ----------------------------
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ----------------------------
+# Environment variables
+# ----------------------------
+
+.env
+.env.*
+!.env.example
+
+# Secret and credential files
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ----------------------------
+# Flask
+# ----------------------------
+
+instance/
+.webassets-cache/
+
+# ----------------------------
+# SQLite databases
+# ----------------------------
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ----------------------------
+# JavaScript / Node.js
+# ----------------------------
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ----------------------------
+# TypeScript
+# ----------------------------
+
+*.tsbuildinfo
+
+# ----------------------------
+# Editors and IDEs
+# ----------------------------
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ----------------------------
+# Operating systems
+# ----------------------------
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------------
+# Logs
+# ----------------------------
+
+*.log
+logs/
+
+# ----------------------------
+# Temporary files
+# ----------------------------
+
+*.tmp
+*.temp
+.cache/
+temp/
+
+# ----------------------------
+# Docker
+# ----------------------------
+
+.docker/
+
+# ----------------------------
+# Local configuration
+# ----------------------------
+
+config.local.yaml
+config.local.yml
+local.settings.json
+
+# ============================================================
+# END OF GITIGNORE
+# ============================================================
