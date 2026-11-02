@@ -1,0 +1,297 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "document_name": "Shaurya Mittal - Developer Identity Database",
+    "document_type": "Personal Developer Profile",
+    "version": "1.0.0",
+    "created_by": "Shaurya Mittal",
+    "username": "shaurya1233",
+    "last_updated": "2026-11-02",
+    "language": "English",
+    "format": "JSON",
+    "purpose": "Structured representation of developer identity, interests, projects and digital presence"
+  },
+  "identity": {
+    "full_name": "Shaurya Mittal",
+    "username": "shaurya1233",
+    "professional_title": "Student Developer · AI-Assisted Digital Creator",
+    "occupation": "Student",
+    "location": {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "country_code": "IN"
+    },
+    "github": "https://github.com/shaurya1233",
+    "portfolio": "https://shaurya1233.github.io/NOUMEN/",
+    "about_page": "https://shaurya1233.github.io/NOUMEN/about/"
+  },
+  "biography": {
+    "short": "Shaurya Mittal is a student developer interested in web development, software creation, artificial intelligence, interface design and digital product development.",
+    "long": "Shaurya Mittal is an aspiring developer and AI-assisted digital creator based in Lucknow, India. His interests include building websites, experimenting with software, exploring artificial intelligence and creating digital products. He uses development tools and AI-assisted workflows to turn ideas into functional digital experiences.",
+    "professional_identity": [
+      "Student Developer",
+      "AI-Assisted Digital Creator",
+      "Web Development Enthusiast",
+      "Digital Product Explorer"
+    ],
+    "philosophy": [
+      "Build useful digital experiences.",
+      "Learn through practical experimentation.",
+      "Value functionality alongside visual design.",
+      "Explore technology through independent projects.",
+      "Improve continuously through learning and iteration."
+    ]
+  },
+  "interests": {
+    "software_development": [
+      "Web Development",
+      "Frontend Development",
+      "Backend Development",
+      "Software Engineering",
+      "Application Development"
+    ],
+    "technology": [
+      "Artificial Intelligence",
+      "Creative Technology",
+      "Web Technologies",
+      "Digital Infrastructure",
+      "Browser-Based Applications"
+    ],
+    "design": [
+      "User Interface Design",
+      "User Experience",
+      "Typography",
+      "Visual Identity",
+      "Digital Branding",
+      "Responsive Design"
+    ],
+    "entrepreneurship": [
+      "Digital Entrepreneurship",
+      "Product Development",
+      "Business Websites",
+      "Digital Services",
+      "Independent Projects"
+    ]
+  },
+  "technical_environment": {
+    "languages_and_web_technologies": [
+      {
+        "name": "HTML",
+        "category": "Markup Language"
+      },
+      {
+        "name": "CSS",
+        "category": "Stylesheet Language"
+      },
+      {
+        "name": "JavaScript",
+        "category": "Programming Language"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Programming Language"
+      },
+      {
+        "name": "Python",
+        "category": "Programming Language"
+      },
+      {
+        "name": "SQL",
+        "category": "Database Query Language"
+      }
+    ],
+    "development_platforms": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com",
+        "purpose": "Source code hosting and version control"
+      },
+      {
+        "name": "GitHub Pages",
+        "url": "https://pages.github.com",
+        "purpose": "Static website hosting"
+      },
+      {
+        "name": "Vercel",
+        "url": "https://vercel.com",
+        "purpose": "Web application deployment"
+      }
+    ],
+    "ai_assisted_tools": [
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "Replit"
+    ],
+    "development_approach": [
+      "AI-Assisted Development",
+      "Single-File Web Development",
+      "Responsive Interface Development",
+      "Iterative Prototyping",
+      "Independent Project Creation"
+    ]
+  },
+  "projects": [
+    {
+      "id": "noumen",
+      "name": "NOUMEN",
+      "category": "Personal Portfolio",
+      "description": "Personal portfolio and digital development showcase.",
+      "url": "https://shaurya1233.github.io/NOUMEN/",
+      "repository": "https://github.com/shaurya1233/NOUMEN",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": true
+    },
+    {
+      "id": "mittal-reserve",
+      "name": "Mittal Reserve",
+      "category": "Digital Property Concept",
+      "description": "Premium digital property and hospitality concept.",
+      "url": "https://mittal-reserve.vercel.app/",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": true
+    },
+    {
+      "id": "aurex",
+      "name": "AUREX Calculator",
+      "category": "Software Project",
+      "description": "Browser-based calculator project.",
+      "url": "https://shaurya1233.github.io/AUREX-MITTAL-CALCULATOR/",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": true
+    },
+    {
+      "id": "obsidian-developers",
+      "name": "Obsidian Developers",
+      "category": "Digital Development Initiative",
+      "description": "A digital development and website creation initiative.",
+      "url": "https://obsidian-developers.vercel.app/",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": true
+    },
+    {
+      "id": "windows-11",
+      "name": "Windows 11 SHAURYA OS",
+      "category": "Browser-Based Interface Experiment",
+      "description": "A browser-based desktop interface experiment.",
+      "url": "https://shaurya1233.github.io/WINDOWS-11-Ultimate/",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "featured": false
+    }
+  ],
+  "social_presence": {
+    "github": {
+      "platform": "GitHub",
+      "url": "https://github.com/shaurya1233"
+    },
+    "linkedin": {
+      "platform": "LinkedIn",
+      "url": null,
+      "note": "Add a permanent public profile URL after verification."
+    },
+    "instagram": {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/shaurya_mittal31/"
+    },
+    "leetcode": {
+      "platform": "LeetCode",
+      "url": "https://leetcode.com/u/Qlk0uRwuTh/"
+    },
+    "codepen": {
+      "platform": "CodePen",
+      "url": "https://codepen.io/SHAURYA-MITTAL-the-bashful"
+    },
+    "mastodon": {
+      "platform": "Mastodon",
+      "url": "https://mastodon.social/@shaurya_dev"
+    },
+    "bluesky": {
+      "platform": "Bluesky",
+      "url": "https://bsky.app/profile/mittalshaurya66-06.bsky.social"
+    }
+  },
+  "development_principles": {
+    "quality": [
+      "Functional implementation",
+      "Readable code",
+      "Maintainable architecture",
+      "Responsive experiences",
+      "Performance awareness",
+      "Accessibility awareness"
+    ],
+    "design_direction": [
+      "Premium visual presentation",
+      "Editorial typography",
+      "Clear information hierarchy",
+      "Consistent design systems",
+      "Purposeful animation"
+    ],
+    "engineering_approach": [
+      "Understand the problem before implementation.",
+      "Prefer practical solutions.",
+      "Avoid unnecessary dependencies.",
+      "Test functionality before publication.",
+      "Document important technical decisions."
+    ]
+  },
+  "objectives": {
+    "short_term": [
+      "Improve programming fundamentals.",
+      "Develop practical TypeScript knowledge.",
+      "Explore Python application development.",
+      "Build useful independent projects.",
+      "Improve software architecture understanding."
+    ],
+    "long_term": [
+      "Develop advanced software engineering skills.",
+      "Explore artificial intelligence applications.",
+      "Create useful digital products.",
+      "Understand digital business development.",
+      "Build a strong independent project portfolio."
+    ]
+  },
+  "repository": {
+    "name": "shaurya1233",
+    "owner": "shaurya1233",
+    "purpose": "Public developer identity and structured technical documentation",
+    "visibility": "Public",
+    "main_files": [
+      "README.md",
+      "profile.json",
+      "biography.md",
+      "social-links.json",
+      "interests.json",
+      "CITATION.cff",
+      "styles.css",
+      "script.js",
+      "app.py",
+      "example.ts",
+      "data.json"
+    ]
+  },
+  "contact": {
+    "github": "https://github.com/shaurya1233",
+    "portfolio": "https://shaurya1233.github.io/NOUMEN/"
+  }
+}
