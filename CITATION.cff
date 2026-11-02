@@ -1,0 +1,68 @@
+# CITATION.cff
+# Citation File Format
+# Public citation metadata for Shaurya Mittal's developer profile.
+
+cff-version: 1.2.0
+message: >-
+  If you use, reference, or build upon the software, code, or original
+  digital projects maintained in this repository, please acknowledge
+  the original creator using the citation information below.
+
+type: software
+
+title: "Shaurya Mittal — Developer Profile and Digital Projects"
+
+abstract: >-
+  This repository provides structured public information about Shaurya Mittal,
+  a student developer and AI-assisted digital creator interested in web
+  development, software development, artificial intelligence, interface
+  design, and digital product creation.
+
+  It contains developer profile information, professional biography,
+  public social links, areas of interest, and documentation describing
+  selected independent digital projects.
+
+authors:
+  - family-names: "Mittal"
+    given-names: "Shaurya"
+    affiliation: "Independent Student Developer"
+    orcid: null
+
+repository-code: "https://github.com/shaurya1233/shaurya1233"
+
+url: "https://shaurya1233.github.io/NOUMEN/"
+
+repository: "https://github.com/shaurya1233/shaurya1233"
+
+keywords:
+  - "Shaurya Mittal"
+  - "Student Developer"
+  - "Web Development"
+  - "Software Development"
+  - "Artificial Intelligence"
+  - "AI-Assisted Development"
+  - "Frontend Development"
+  - "Digital Creation"
+  - "Digital Product Development"
+  - "Technology"
+  - "JavaScript"
+  - "HTML5"
+  - "CSS3"
+  - "GitHub"
+  - "Independent Projects"
+
+license: CC-BY-4.0
+
+version: "1.0.0"
+
+date-released: 2026-11-02
+
+preferred-citation:
+  type: software
+  title: "Shaurya Mittal — Developer Profile and Digital Projects"
+  authors:
+    - family-names: "Mittal"
+      given-names: "Shaurya"
+  version: "1.0.0"
+  year: 2026
+  url: "https://github.com/shaurya1233/shaurya1233"
